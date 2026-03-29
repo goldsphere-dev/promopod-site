@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+
+nav a {
+
+display: block;
+margin-bottom: 10px;
+
+}
+
+section {
+
+padding: 20px;
+
+}
+
+}
