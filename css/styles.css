@@ -330,16 +330,43 @@ font-size:40px;
 
 
 /* ============================= */
-/* FIX PARAGRAPH WIDTH */
+/* FIX HERO WIDTH */
+/* ============================= */
+
+.hero h1 {
+
+font-size: 64px;
+
+max-width: 100%;
+
+margin-bottom: 24px;
+
+}
+
+.hero p {
+
+font-size: 22px;
+
+max-width: 900px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+margin-bottom: 40px;
+
+}
+
+
+/* ============================= */
+/* FIX GENERAL TEXT WIDTH */
 /* ============================= */
 
 section p {
 
+max-width: 1000px;
+
 margin-bottom: 18px;
-
-text-align: left;
-
-max-width: none;
 
 }
 
@@ -360,16 +387,10 @@ text-align: center;
 
 
 /* ============================= */
-/* FORCE GRADIENT BUTTON */
+/* FORCE BUTTON GRADIENT */
 /* ============================= */
 
 .btn-primary {
-
-display: inline-block;
-
-padding: 16px 34px;
-
-border-radius: 12px;
 
 background: linear-gradient(
 135deg,
@@ -377,34 +398,26 @@ background: linear-gradient(
 #2563eb
 ) !important;
 
-background-image: linear-gradient(
-135deg,
-#3b82f6,
-#2563eb
-) !important;
+background-color: transparent !important;
 
-color: white;
+border: none !important;
 
-font-weight: 600;
-
-text-decoration: none;
-
-border: none;
+color: white !important;
 
 }
 
 
 /* ============================= */
-/* FORCE FULL CONTENT WIDTH */
+/* IMPROVE CONTENT WIDTH */
 /* ============================= */
 
 .container {
 
-max-width: 1280px !important;
+max-width: 1400px !important;
 
-padding-left: 40px !important;
+padding-left: 48px !important;
 
-padding-right: 40px !important;
+padding-right: 48px !important;
 
 }
 
@@ -437,27 +450,5 @@ margin-bottom: 30px;
 padding-top: 110px;
 
 padding-bottom: 110px;
-
-}
-
-/* Restore hero strength */
-
-.hero h1 {
-
-font-size: 64px;
-
-}
-
-.hero p {
-
-font-size: 22px;
-
-max-width: 620px;
-
-margin-left: auto;
-
-margin-right: auto;
-
-text-align: center;
 
 }
