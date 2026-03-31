@@ -298,14 +298,70 @@ text-align: center;
 
 
 /* ============================= */
-/* ICON */
+/* ICON SYSTEM */
 /* ============================= */
 
-.icon {
+.card-icon {
 
-font-size: 34px;
+width: 60px;
 
-margin-bottom: 12px;
+height: 60px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+margin-bottom: 20px;
+
+border-radius: 14px;
+
+background: rgba(59,130,246,0.08);
+
+transition: all 0.25s ease;
+
+}
+
+/* SVG Icon Styling */
+
+.card-icon svg {
+
+width: 28px;
+
+height: 28px;
+
+stroke: #3b82f6;
+
+}
+
+/* Hover Animation */
+
+.card:hover .card-icon {
+
+background: rgba(59,130,246,0.15);
+
+transform: translateY(-3px);
+
+}
+
+.card:hover .card-icon svg {
+
+stroke: #2563eb;
+
+}
+
+/* Optional subtle card hover sync */
+
+.card {
+
+transition: all 0.25s ease;
+
+}
+
+.card:hover {
+
+transform: translateY(-6px);
 
 }
 
