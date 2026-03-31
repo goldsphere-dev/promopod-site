@@ -330,7 +330,7 @@ font-size:40px;
 
 
 /* ============================= */
-/* TEXT ALIGNMENT FIX */
+/* FIX PARAGRAPH WIDTH */
 /* ============================= */
 
 section p {
@@ -339,10 +339,12 @@ margin-bottom: 18px;
 
 text-align: left;
 
+max-width: none;
+
 }
 
 
-/* Limit only intro paragraphs */
+/* Limit only intro text */
 
 .section-intro {
 
@@ -357,24 +359,63 @@ text-align: center;
 }
 
 
-/* Allow cards to use full width */
+/* ============================= */
+/* FORCE GRADIENT BUTTON */
+/* ============================= */
 
-.card p {
+.btn-primary {
 
-max-width: none;
+display: inline-block;
+
+padding: 16px 34px;
+
+border-radius: 12px;
+
+background: linear-gradient(
+135deg,
+#3b82f6,
+#2563eb
+) !important;
+
+background-image: linear-gradient(
+135deg,
+#3b82f6,
+#2563eb
+) !important;
+
+color: white;
+
+font-weight: 600;
+
+text-decoration: none;
+
+border: none;
 
 }
 
 
-/* Improve general readability */
+/* ============================= */
+/* FORCE FULL CONTENT WIDTH */
+/* ============================= */
 
 .container {
 
-max-width: 1280px;
+max-width: 1280px !important;
 
-padding-left: 40px;
+padding-left: 40px !important;
 
-padding-right: 40px;
+padding-right: 40px !important;
+
+}
+
+
+/* ============================= */
+/* FIX GRID TEXT WIDTH */
+/* ============================= */
+
+.card p {
+
+max-width: none;
 
 }
 
