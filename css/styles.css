@@ -134,6 +134,8 @@ margin: 0 auto 48px auto;
 
 .section-header {
 
+text-align: center;
+
 margin-bottom: 64px;
 
 }
@@ -504,6 +506,54 @@ margin-bottom: 16px;
 .section.section-alt > .container > p {
 
 margin-bottom: 40px;
+
+}
+
+
+/* ============================= */
+/* TRUST STRIP                   */
+/* ============================= */
+
+.trust-strip {
+
+padding: 24px 0;
+
+background: #f9fafb;
+
+border-top: 1px solid #e5e7eb;
+
+border-bottom: 1px solid #e5e7eb;
+
+font-size: 15px;
+
+letter-spacing: 0.02em;
+
+}
+
+.trust-content {
+
+text-align: center;
+
+}
+
+.trust-text {
+
+font-size: 16px;
+
+font-weight: 500;
+
+color: #374151;
+
+}
+
+
+/* ============================= */
+/* SECTION POSITIONING           */
+/* ============================= */
+
+section {
+
+position: relative;
 
 }
 
