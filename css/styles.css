@@ -298,6 +298,27 @@ text-align: center;
 
 
 /* ============================= */
+/* ICON */
+/* ============================= */
+
+.icon {
+
+font-size: 34px;
+
+margin-bottom: 12px;
+
+}
+
+.step,
+.feature,
+.user-type {
+
+text-align: center;
+
+}
+
+
+/* ============================= */
 /* STEPS GRID */
 /* ============================= */
 
