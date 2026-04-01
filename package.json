@@ -1,0 +1,17 @@
+{
+  "name": "promopod-site",
+  "version": "1.0.0",
+  "description": "Promopod — Neuroscience-Based Trading Discipline Platform",
+  "private": true,
+  "scripts": {
+    "dev":     "python dev-server.py",
+    "preview": "python dev-server.py",
+    "serve":   "python -m http.server 5500"
+  },
+  "engines": {
+    "python": ">=3.8"
+  },
+  "devDependencies": {},
+  "keywords": ["promopod", "trading", "neuroscience", "discipline"],
+  "license": "UNLICENSED"
+}
