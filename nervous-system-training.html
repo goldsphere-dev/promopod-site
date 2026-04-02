@@ -165,17 +165,17 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card" style="border-top: 2px solid var(--accent-warning);">
-          <div class="card__icon card__icon--warning">📉</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="trending-down"></i></div>
           <h3>Activated By Loss</h3>
           <p>A losing trade immediately triggers sympathetic activation. The brain processes financial loss as a survival threat.</p>
         </div>
         <div class="card" style="border-top: 2px solid var(--accent-warning);">
-          <div class="card__icon card__icon--warning">😨</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="alert-triangle"></i></div>
           <h3>Activated By Fear</h3>
           <p>Fear of missing a trade, fear of further loss, or fear of account failure can all activate the stress response.</p>
         </div>
         <div class="card" style="border-top: 2px solid var(--accent-warning);">
-          <div class="card__icon card__icon--warning">📊</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="bar-chart-2"></i></div>
           <h3>Activated By Volatility</h3>
           <p>Rapid market movement creates urgency and activates sympathetic responses, even without actual loss.</p>
         </div>
@@ -217,22 +217,22 @@
       </div>
       <div class="ns-grid fade-in fade-in--delay-2">
         <div class="card">
-          <div class="card__icon">🧘</div>
+          <div class="card__icon"><i data-lucide="activity"></i></div>
           <h3>Stability</h3>
           <p>The parasympathetic state creates physiological stability, which is the foundation for consistent decision making under pressure.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🎯</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="target"></i></div>
           <h3>Focus</h3>
           <p>Calm focus that is broad and analytical replaces the narrow tunnel vision of the sympathetic state.</p>
         </div>
         <div class="card">
-          <div class="card__icon">🧠</div>
+          <div class="card__icon"><i data-lucide="brain"></i></div>
           <h3>Decision Quality</h3>
           <p>The prefrontal cortex reengages. Logical reasoning returns. Rule based trading becomes possible again.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--warning">⏱️</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="timer"></i></div>
           <h3>Recovery Time</h3>
           <p>Structured recovery reduces the time required to shift from sympathetic to parasympathetic state.</p>
         </div>
@@ -250,22 +250,22 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon">⏸️</div>
+          <div class="card__icon"><i data-lucide="pause-circle"></i></div>
           <h3>Pause Routines</h3>
           <p>A structured pause after a loss creates the physiological gap needed for the stress response to begin subsiding before the next decision.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🪞</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="scan"></i></div>
           <h3>Reflection Prompts</h3>
           <p>Guided reflection questions redirect attention from the loss to the behavioral response, activating analytical thinking.</p>
         </div>
         <div class="card">
-          <div class="card__icon">💨</div>
+          <div class="card__icon"><i data-lucide="wind"></i></div>
           <h3>Breathing Cycles</h3>
           <p>Controlled breathing directly activates the vagus nerve, which is the primary pathway to parasympathetic recovery.</p>
         </div>
         <div class="card" style="grid-column: span 3;">
-          <div class="card__icon card__icon--warning">⏱️</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="timer"></i></div>
           <h3>Recovery Timing</h3>
           <p>Promopod tracks recovery time between trade events, identifying patterns in how long stress takes to subside and when trading is safest to resume.</p>
         </div>
@@ -393,5 +393,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

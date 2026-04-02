@@ -160,27 +160,27 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon">🚀</div>
+          <div class="card__icon"><i data-lucide="rocket"></i></div>
           <h3>Early Platform Access</h3>
           <p>Access behavioral tools and features before they are available to the general public. Shape your discipline practice from day one.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🎯</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="target"></i></div>
           <h3>Influence Development</h3>
           <p>Direct feedback channels to the development team. Features are built around early user experience and needs.</p>
         </div>
         <div class="card">
-          <div class="card__icon">⭐</div>
+          <div class="card__icon"><i data-lucide="star"></i></div>
           <h3>Priority Onboarding</h3>
           <p>Dedicated setup support and guided onboarding. Early users receive personal attention during the initial platform phases.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--warning">💰</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="coins"></i></div>
           <h3>Reduced Future Pricing</h3>
           <p>Beta participants receive preferential pricing when the platform moves to its paid tier, locked in from their participation date.</p>
         </div>
         <div class="card" style="grid-column: span 2; background: rgba(0,209,193,0.03); border-color: var(--border-accent);">
-          <div class="card__icon">🏆</div>
+          <div class="card__icon"><i data-lucide="trophy"></i></div>
           <h3>Founding Member Recognition</h3>
           <p>Beta participants are recognized as founding members. These are the traders who helped build and validate the platform from its earliest stages. Early users help define the direction of the platform.</p>
         </div>
@@ -197,17 +197,17 @@
         <p class="fade-in fade-in--delay-2" style="margin: 16px auto 32px;">Founding users participate in early testing phases. They gain long-term platform familiarity, priority support access, and influence over feature evolution. This creates shared ownership of the system's development.</p>
         <div class="card-grid card-grid--3 fade-in fade-in--delay-2" style="text-align: left;">
           <div class="card">
-            <div class="card__icon">🔬</div>
+            <div class="card__icon"><i data-lucide="microscope"></i></div>
             <h3>Early Testing</h3>
             <p>Participate in testing behavioral features as they are built. Your experience shapes the product.</p>
           </div>
           <div class="card">
-            <div class="card__icon card__icon--blue">🤝</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="handshake"></i></div>
             <h3>Priority Support</h3>
             <p>Direct access to the team. Questions answered, issues resolved, feedback acted on.</p>
           </div>
           <div class="card">
-            <div class="card__icon">🌱</div>
+            <div class="card__icon"><i data-lucide="sprout"></i></div>
             <h3>Feature Influence</h3>
             <p>Founding users' feedback directly influences which features are built next and how they function.</p>
           </div>
@@ -282,7 +282,7 @@
 
         <!-- Success Message (hidden until form submitted) -->
         <div id="formSuccess" style="display:none; text-align:center; padding: 48px 24px;">
-          <div style="font-size:3rem; margin-bottom:16px;">✅</div>
+          <div style="margin-bottom:16px;"><i data-lucide="check-circle" style="width:48px;height:48px;color:var(--accent-primary);"></i></div>
           <h3 style="margin-bottom:12px; color:var(--accent-primary);">Beta Request Received</h3>
           <p style="max-width:440px; margin:0 auto;">Thank you for joining the Promopod beta program. We will be in touch with onboarding details shortly.</p>
           <a href="index.html" class="btn btn--ghost" style="margin-top:28px;">Return to Home</a>
@@ -301,19 +301,19 @@
           <p>User information is protected. Email addresses are used only for beta communication.</p>
           <p style="margin-top: 16px;">No personal data is shared with third parties. Privacy is maintained throughout the development process.</p>
           <div class="trust-strip" style="margin: 28px 0 0; justify-content: flex-start; padding: 20px 0;">
-            <div class="trust-strip__item"><span>🔒</span><span>Data protected</span></div>
-            <div class="trust-strip__item"><span>📧</span><span>Beta use only</span></div>
-            <div class="trust-strip__item"><span>🚫</span><span>No data sharing</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="lock"></i></span><span>Data protected</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="mail"></i></span><span>Beta use only</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="ban"></i></span><span>No data sharing</span></div>
           </div>
         </div>
         <div class="fade-in fade-in--delay-2">
           <div class="card">
-            <div class="card__icon">🔒</div>
+            <div class="card__icon"><i data-lucide="lock"></i></div>
             <h3>What We Collect</h3>
             <p>Name, email, trading type, and optional feedback. Nothing beyond what is required to communicate beta updates.</p>
           </div>
           <div class="card" style="margin-top: 16px;">
-            <div class="card__icon card__icon--blue">📭</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="mail-open"></i></div>
             <h3>How We Use It</h3>
             <p>Beta onboarding updates, feature announcements, and feedback requests. Unsubscribe at any time.</p>
           </div>
@@ -376,5 +376,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

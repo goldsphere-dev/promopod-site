@@ -140,7 +140,7 @@
               <h4 style="font-size:0.95rem; color:var(--text-primary);">Promopod Voice Pod</h4>
             </div>
             <div style="display:flex; align-items:center; gap:12px; background:rgba(0,209,193,0.05); border-radius:10px; padding:16px; border:1px solid rgba(0,209,193,0.12);">
-              <div style="width:48px;height:48px;border-radius:50%;background:rgba(0,209,193,0.1);border:2px solid rgba(0,209,193,0.3);display:flex;align-items:center;justify-content:center;font-size:1.25rem;">🎙️</div>
+              <div style="width:48px;height:48px;border-radius:50%;background:rgba(0,209,193,0.1);border:2px solid rgba(0,209,193,0.3);display:flex;align-items:center;justify-content:center;color:var(--accent-primary);"><i data-lucide="mic" style="width:22px;height:22px;"></i></div>
               <div style="flex:1;">
                 <div style="height:4px; background:linear-gradient(90deg, var(--accent-primary) 70%, var(--border-color) 70%); border-radius:4px; margin-bottom:8px;"></div>
                 <span style="font-size:0.75rem; color:var(--text-muted);">Recording... 0:09</span>
@@ -163,17 +163,17 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon">🗣️</div>
+          <div class="card__icon"><i data-lucide="message-square"></i></div>
           <h3>Natural Speech</h3>
           <p>Speak the way you think. No structured format required. Natural language is captured and structured automatically.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🔤</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="type"></i></div>
           <h3>Automatic Transcription</h3>
           <p>Speech is converted into text and structured behavioral data. Emotion, context, and reflection are all extracted automatically.</p>
         </div>
         <div class="card">
-          <div class="card__icon">⚡</div>
+          <div class="card__icon"><i data-lucide="zap"></i></div>
           <h3>Zero Interruption</h3>
           <p>Speak a brief note without leaving your trading interface. The entire process takes under 15 seconds.</p>
         </div>
@@ -272,17 +272,17 @@
         <p class="fade-in fade-in--delay-2" style="margin: 16px auto 32px;">Behavioral awareness requires repetition. Voice logging supports frequent recording. Frequent recording produces reliable insight. Reliable insight improves discipline.</p>
         <div class="card-grid card-grid--3 fade-in fade-in--delay-2" style="text-align: left;">
           <div class="card">
-            <div class="card__icon">🔁</div>
+            <div class="card__icon"><i data-lucide="repeat-2"></i></div>
             <h3>Frequent Recording</h3>
             <p>Voice removes the barrier to logging after every trade, not just the significant ones.</p>
           </div>
           <div class="card">
-            <div class="card__icon card__icon--blue">📊</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="bar-chart-2"></i></div>
             <h3>Reliable Data</h3>
             <p>Consistent recording produces statistically meaningful behavioral data that occasional journaling cannot.</p>
           </div>
           <div class="card">
-            <div class="card__icon">🎯</div>
+            <div class="card__icon"><i data-lucide="target"></i></div>
             <h3>Improved Discipline</h3>
             <p>Reliable behavioral data surfaces patterns. Patterns enable structured interventions that improve discipline.</p>
           </div>
@@ -346,5 +346,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

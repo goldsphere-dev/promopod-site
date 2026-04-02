@@ -138,17 +138,17 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card" style="border-top: 2px solid var(--accent-warning);">
-          <div class="card__icon card__icon--warning">📊</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="bar-chart-2"></i></div>
           <h3>Maximum Daily Loss</h3>
           <p>A hard limit on daily drawdown. One impulsive session can end a funded account. Stress-driven overtrading is the primary cause of daily limit breaches.</p>
         </div>
         <div class="card" style="border-top: 2px solid #ef4444;">
-          <div class="card__icon" style="background: rgba(239,68,68,0.1);">🔴</div>
+          <div class="card__icon" style="background: rgba(239,68,68,0.1); color:#ef4444;"><i data-lucide="circle-alert"></i></div>
           <h3>Maximum Total Loss</h3>
           <p>Overall drawdown ceiling. Recovery trading after losses is the most common path to total loss limit violations.</p>
         </div>
         <div class="card" style="border-top: 2px solid var(--accent-secondary);">
-          <div class="card__icon card__icon--blue">📋</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="clipboard-list"></i></div>
           <h3>Risk Management Rules</h3>
           <p>Position sizing, trade frequency, and instrument restrictions. Impulse-driven rule violations are the leading cause of account termination.</p>
         </div>
@@ -240,17 +240,17 @@
         <p class="fade-in fade-in--delay-2" style="margin: 16px auto 32px;">Performance improves when behavior becomes measurable. Measurable behavior becomes manageable. Manageable behavior becomes controllable.</p>
         <div class="card-grid card-grid--3 fade-in fade-in--delay-2" style="text-align: left;">
           <div class="card">
-            <div class="card__icon">📈</div>
+            <div class="card__icon"><i data-lucide="trending-up"></i></div>
             <h3>Measurable</h3>
             <p>Discipline Pods convert every trade into behavioral data, making previously invisible patterns quantifiable.</p>
           </div>
           <div class="card">
-            <div class="card__icon card__icon--blue">🎯</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="target"></i></div>
             <h3>Manageable</h3>
             <p>AI identifies behavioral sequences before they escalate to rule violations, creating structured intervention opportunities.</p>
           </div>
           <div class="card">
-            <div class="card__icon">🛡️</div>
+            <div class="card__icon"><i data-lucide="shield"></i></div>
             <h3>Controllable</h3>
             <p>Structured behavioral awareness supports consistent execution, protecting account health and compliance.</p>
           </div>
@@ -269,32 +269,32 @@
       </div>
       <div class="card-grid fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon">📋</div>
+          <div class="card__icon"><i data-lucide="clipboard-list"></i></div>
           <h3>Track Behavioral Reactions</h3>
           <p>Every trade generates a behavioral record. Patterns that lead to rule violations become visible before they become catastrophic.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--warning">⚠️</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="alert-triangle"></i></div>
           <h3>Detect Rule Violations</h3>
           <p>AI flags behavioral sequences that historically precede rule violations, creating early warning before the breach occurs.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">⏱️</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="timer"></i></div>
           <h3>Measure Recovery Time</h3>
           <p>Track how long stress takes to subside. Identify optimal recovery periods before returning to the market.</p>
         </div>
         <div class="card">
-          <div class="card__icon">🔍</div>
+          <div class="card__icon"><i data-lucide="search"></i></div>
           <h3>Identify Impulse Patterns</h3>
           <p>Revenge trading sequences, overtrading cycles, and escalation patterns identified and categorized.</p>
         </div>
         <div class="card">
-          <div class="card__icon">🏆</div>
+          <div class="card__icon"><i data-lucide="trophy"></i></div>
           <h3>Strengthen Discipline Consistency</h3>
           <p>Over time, behavioral awareness builds structural discipline, not just session by session willpower.</p>
         </div>
         <div class="card" style="background: rgba(0,209,193,0.03); border-color: var(--border-accent);">
-          <div class="card__icon">📊</div>
+          <div class="card__icon"><i data-lucide="bar-chart-2"></i></div>
           <h3>Account Survival Support</h3>
           <p>Behavior stabilizes over time. Stability improves account survival rate. Discipline becomes a measurable performance metric.</p>
         </div>
@@ -356,5 +356,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

@@ -119,9 +119,9 @@
             <p><strong style="color: var(--text-primary);">AI observes behavior.</strong><br>It does not predict markets.</p>
           </div>
           <div class="trust-strip" style="margin: 28px 0 0; justify-content: flex-start; padding: 20px 0;">
-            <div class="trust-strip__item"><span>🧠</span><span>Behavior analysis</span></div>
-            <div class="trust-strip__item"><span>🔍</span><span>Pattern detection</span></div>
-            <div class="trust-strip__item"><span>📊</span><span>Structured insight</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="brain"></i></span><span>Behavior analysis</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="search"></i></span><span>Pattern detection</span></div>
+            <div class="trust-strip__item"><span><i data-lucide="bar-chart-2"></i></span><span>Structured insight</span></div>
           </div>
         </div>
         <div class="fade-in fade-in--delay-2">
@@ -143,27 +143,27 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon card__icon--warning">🔥</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="flame"></i></div>
           <h3>Repeated Emotional Triggers</h3>
           <p>AI identifies which emotional states consistently precede rule violations, revealing behavioral vulnerabilities.</p>
         </div>
         <div class="card">
-          <div class="card__icon">⚠️</div>
+          <div class="card__icon"><i data-lucide="alert-triangle"></i></div>
           <h3>Rule Violations</h3>
           <p>Patterns of when and why rules break down, grouped by time, market condition, and emotional state.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">⚡</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="zap"></i></div>
           <h3>Impulse Responses</h3>
           <p>Rapid reentry patterns, overtrading sequences, and revenge trading behaviors flagged and categorized.</p>
         </div>
         <div class="card">
-          <div class="card__icon">📈</div>
+          <div class="card__icon"><i data-lucide="trending-up"></i></div>
           <h3>Risk Escalation Patterns</h3>
           <p>Sequences where position size or frequency increases after losses. This is a major account threatening behavior.</p>
         </div>
         <div class="card" style="grid-column: span 2; background: rgba(0,209,193,0.03); border-color: var(--border-accent);">
-          <div class="card__icon">🧩</div>
+          <div class="card__icon"><i data-lucide="puzzle"></i></div>
           <h3>These Patterns Are Difficult to Recognize Manually</h3>
           <p>Without systematic tracking, these behavioral sequences remain invisible. AI makes them measurable, quantifiable, and actionable.</p>
         </div>
@@ -289,17 +289,17 @@
         <p class="fade-in fade-in--delay-2" style="margin: 16px auto 32px;">Promopod feedback is neutral. It does not criticize. It does not predict markets. It provides structured observations. Clear information supports better decisions.</p>
         <div class="card-grid card-grid--3 fade-in fade-in--delay-2" style="text-align: left;">
           <div class="card">
-            <div class="card__icon">⚖️</div>
+            <div class="card__icon"><i data-lucide="scale"></i></div>
             <h3>Neutral</h3>
             <p>Observations are factual and objective, with no moral judgment and no emotional framing.</p>
           </div>
           <div class="card">
-            <div class="card__icon card__icon--blue">🔬</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="microscope"></i></div>
             <h3>Scientific</h3>
             <p>Insights are grounded in behavioral data, not intuition. Measurable patterns, not vague assessments.</p>
           </div>
           <div class="card">
-            <div class="card__icon">🎯</div>
+            <div class="card__icon"><i data-lucide="target"></i></div>
             <h3>Actionable</h3>
             <p>Every insight includes a structured response recommendation. Awareness leads directly to action.</p>
           </div>
@@ -363,5 +363,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>

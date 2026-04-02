@@ -531,14 +531,31 @@ section:nth-child(even) {
   justify-content: center;
   margin-bottom: 16px;
   font-size: 1.35rem;
+  color: var(--accent-primary);
+}
+
+.card__icon svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.75;
+  flex-shrink: 0;
 }
 
 .card__icon--blue {
   background: rgba(77, 163, 255, 0.1);
+  color: var(--accent-secondary);
 }
 
 .card__icon--warning {
   background: rgba(255, 200, 87, 0.1);
+  color: var(--accent-warning);
+}
+
+.trust-strip__item svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+  flex-shrink: 0;
 }
 
 .card h3 {
@@ -991,6 +1008,90 @@ section:nth-child(even) {
   content: '→';
   color: var(--text-muted);
   font-size: 0.8rem;
+}
+
+/* Enhanced NS Card — icon header + labeled list items */
+.ns-card__header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.ns-card__icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ns-card__icon-wrap svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.75;
+}
+
+.ns-card__icon-wrap--warning {
+  background: rgba(255, 200, 87, 0.15);
+  color: var(--accent-warning);
+}
+
+.ns-card__icon-wrap--primary {
+  background: rgba(0, 209, 193, 0.15);
+  color: var(--accent-primary);
+}
+
+.ns-card__title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ns-card__mode-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-warning);
+}
+
+.ns-card__mode-label--primary {
+  color: var(--accent-primary);
+}
+
+.ns-card__desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+  max-width: none;
+}
+
+.ns-card--enhanced ul li::before {
+  content: none;
+}
+
+.ns-card--enhanced ul li {
+  gap: 10px;
+}
+
+.ns-card--enhanced ul li svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  stroke-width: 2;
+}
+
+.ns-card--sympathetic.ns-card--enhanced ul li svg {
+  color: rgba(255, 200, 87, 0.85);
+}
+
+.ns-card--parasympathetic.ns-card--enhanced ul li svg {
+  color: var(--accent-primary);
 }
 
 /* Breathing protocol visual */

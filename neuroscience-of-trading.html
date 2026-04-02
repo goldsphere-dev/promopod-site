@@ -149,12 +149,12 @@
         </div>
         <div>
           <div class="card" style="margin-bottom: 16px;">
-            <div class="card__icon card__icon--warning">🧠</div>
+            <div class="card__icon card__icon--warning"><i data-lucide="brain"></i></div>
             <h3>Prefrontal Cortex</h3>
             <p>Logical reasoning, rule compliance, deliberate decisions. This is where discipline lives.</p>
           </div>
           <div class="card">
-            <div class="card__icon">⚡</div>
+            <div class="card__icon"><i data-lucide="zap"></i></div>
             <h3>Amygdala Override</h3>
             <p>When activated under threat, it suppresses prefrontal function. Logic yields to impulse.</p>
           </div>
@@ -173,17 +173,17 @@
       </div>
       <div class="card-grid card-grid--3 fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon card__icon--warning">❤️</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="heart"></i></div>
           <h3>Heart Rate Increases</h3>
           <p>Blood flow redirects to muscles. The body prepares for physical action, not analytical decision making.</p>
         </div>
         <div class="card">
-          <div class="card__icon">⚗️</div>
+          <div class="card__icon"><i data-lucide="flask-conical"></i></div>
           <h3>Stress Hormones Release</h3>
           <p>Adrenaline and cortisol flood the system. These chemicals are designed for speed, not precision.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🔍</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="search"></i></div>
           <h3>Attention Narrows</h3>
           <p>Focus locks onto the perceived threat. Broader context is ignored. Risk assessment degrades.</p>
         </div>
@@ -252,17 +252,17 @@
       </div>
       <div class="card-grid fade-in fade-in--delay-1">
         <div class="card">
-          <div class="card__icon">🏆</div>
+          <div class="card__icon"><i data-lucide="trophy"></i></div>
           <h3>Winning Releases Dopamine</h3>
           <p>A successful trade creates a dopamine release. This creates pleasure. Pleasure increases the desire for repetition. Repetition increases risk appetite.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--warning">📉</div>
+          <div class="card__icon card__icon--warning"><i data-lucide="trending-down"></i></div>
           <h3>Loss Reduces Dopamine</h3>
           <p>Loss drops dopamine levels below baseline. This creates urgency to recover. That urgency drives revenge trading and impulsive re-entries.</p>
         </div>
         <div class="card">
-          <div class="card__icon card__icon--blue">🔄</div>
+          <div class="card__icon card__icon--blue"><i data-lucide="refresh-cw"></i></div>
           <h3>The Reward Loop</h3>
           <p>Win and loss cycles create neurological loops that reinforce impulsive behavior, independent of trading strategy quality.</p>
         </div>
@@ -307,26 +307,42 @@
         <p>Your trading performance is directly linked to which nervous system state is active during your session.</p>
       </div>
       <div class="ns-grid fade-in fade-in--delay-1">
-        <div class="ns-card ns-card--sympathetic">
-          <h3><span style="color: var(--accent-warning);">⚡ Sympathetic State</span>: Stress Mode</h3>
-          <p style="font-size:0.85rem; color: var(--text-muted); margin-bottom: 16px; max-width: none;">Activated during loss, fear, and market volatility</p>
+        <div class="ns-card ns-card--sympathetic ns-card--enhanced">
+          <div class="ns-card__header">
+            <div class="ns-card__icon-wrap ns-card__icon-wrap--warning">
+              <i data-lucide="zap"></i>
+            </div>
+            <div class="ns-card__title-group">
+              <span class="ns-card__mode-label">Stress Mode</span>
+              <h3 style="margin:0;">Sympathetic State</h3>
+            </div>
+          </div>
+          <p class="ns-card__desc">Activated during loss, fear, and market volatility</p>
           <ul>
-            <li>Creates urgency and reactivity</li>
-            <li>Reduces decision quality</li>
-            <li>Increases impulsive behavior</li>
-            <li>Weakens rule compliance</li>
-            <li>Narrows analytical thinking</li>
+            <li><i data-lucide="x-circle"></i><span>Creates urgency and reactivity</span></li>
+            <li><i data-lucide="x-circle"></i><span>Reduces decision quality</span></li>
+            <li><i data-lucide="x-circle"></i><span>Increases impulsive behavior</span></li>
+            <li><i data-lucide="x-circle"></i><span>Weakens rule compliance</span></li>
+            <li><i data-lucide="x-circle"></i><span>Narrows analytical thinking</span></li>
           </ul>
         </div>
-        <div class="ns-card ns-card--parasympathetic">
-          <h3><span style="color: var(--accent-primary);">🌊 Parasympathetic State</span>: Recovery Mode</h3>
-          <p style="font-size:0.85rem; color: var(--text-muted); margin-bottom: 16px; max-width: none;">Activated during calm, rest, and recovery</p>
+        <div class="ns-card ns-card--parasympathetic ns-card--enhanced">
+          <div class="ns-card__header">
+            <div class="ns-card__icon-wrap ns-card__icon-wrap--primary">
+              <i data-lucide="waves"></i>
+            </div>
+            <div class="ns-card__title-group">
+              <span class="ns-card__mode-label ns-card__mode-label--primary">Recovery Mode</span>
+              <h3 style="margin:0;">Parasympathetic State</h3>
+            </div>
+          </div>
+          <p class="ns-card__desc">Activated during calm, rest, and recovery</p>
           <ul>
-            <li>Supports discipline and control</li>
-            <li>Improves decision quality</li>
-            <li>Reduces impulsive behavior</li>
-            <li>Strengthens rule compliance</li>
-            <li>Broadens analytical thinking</li>
+            <li><i data-lucide="check-circle"></i><span>Supports discipline and control</span></li>
+            <li><i data-lucide="check-circle"></i><span>Improves decision quality</span></li>
+            <li><i data-lucide="check-circle"></i><span>Reduces impulsive behavior</span></li>
+            <li><i data-lucide="check-circle"></i><span>Strengthens rule compliance</span></li>
+            <li><i data-lucide="check-circle"></i><span>Broadens analytical thinking</span></li>
           </ul>
         </div>
       </div>
@@ -345,17 +361,17 @@
         <p class="fade-in fade-in--delay-2" style="margin: 16px auto 32px;">Regulation is trainable. Small recovery routines restore control. The ability to shift from sympathetic to parasympathetic states is a learnable skill.</p>
         <div class="card-grid card-grid--3 fade-in fade-in--delay-2">
           <div class="card">
-            <div class="card__icon">💨</div>
+            <div class="card__icon"><i data-lucide="wind"></i></div>
             <h3>Breathing</h3>
             <p>Controlled breathing activates the parasympathetic nervous system and reduces cortisol.</p>
           </div>
           <div class="card">
-            <div class="card__icon card__icon--blue">⏸️</div>
+            <div class="card__icon card__icon--blue"><i data-lucide="pause-circle"></i></div>
             <h3>Pausing</h3>
             <p>Interrupting the impulse cycle with a structured pause prevents reactive decisions.</p>
           </div>
           <div class="card">
-            <div class="card__icon">🪞</div>
+            <div class="card__icon"><i data-lucide="scan"></i></div>
             <h3>Reflection</h3>
             <p>Reviewing behavioral patterns builds awareness that reduces future reactivity.</p>
           </div>
@@ -419,5 +435,7 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>
