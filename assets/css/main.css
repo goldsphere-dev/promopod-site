@@ -403,6 +403,29 @@ section:nth-child(even) {
   flex-wrap: wrap;
 }
 
+.hero__trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.hero__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.hero__trust-item i,
+.hero__trust-item svg {
+  color: var(--accent-primary) !important;
+  flex-shrink: 0;
+}
+
 /* ============================================================
    BUTTONS
    ============================================================ */
