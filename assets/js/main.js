@@ -194,6 +194,7 @@
     initFadeAnimations();
     initBetaForm();
     initBreathingAnimation();
+    if (typeof lucide !== 'undefined') { lucide.createIcons(); }
   }
 
   if (document.readyState === 'loading') {
